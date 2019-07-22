@@ -15,7 +15,7 @@ pre-prod/production). These include:
 - Ability to monitor chaos runs & visualize results over a period of time 
   (say, across builds/releases)
 
-- A standard specifiction of the chaos experiment(s) along with its attributes
+- A standard specification of the chaos experiment(s) along with its attributes
   (such as, rank/priority) 
 
 - Availability of categorized experiment bundles 
