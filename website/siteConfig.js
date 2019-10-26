@@ -44,6 +44,8 @@ const siteConfig = {
   },
 
   // For no header links in the top nav bar -> headerLinks: [],
+  // 10/26/19 MSJ2  Search Bar is overlapping with Litmus Docs version...  Updating Docusaurus didn't fix thhis, ....
+  // spacing in code-blocks-buttons.css  ??
   headerLinks: [
     {href: "https://github.com/litmuschaos/litmus", label: "GitHub"},
     {href: "https://kubernetes.slack.com/messages/CNXNB0ZTN", label: "Slack"},
@@ -114,10 +116,10 @@ const siteConfig = {
   docsSideNavCollapsible: true,
 
   // Show documentation's last contributor's name.
-  // enableUpdateBy: true,
+   enableUpdateBy: true,
 
   // Show documentation's last update time.
-  // enableUpdateTime: true,
+   enableUpdateTime: true,
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
