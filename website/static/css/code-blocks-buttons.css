@@ -1,6 +1,10 @@
 /*
-10/25/19 Goals: bring search bar on same line as tabs
+10/25/19 MSJ2
+Goals: 
+bring search bar on same line as tabs
+avoid overlap of Documentation Nav Bar on the Header Text
 */
+
 /* "Copy" code block button */
 pre {
   position: relative;
@@ -34,7 +38,7 @@ pre .btnIcon:hover {
 
 .btnIcon svg {
   fill: currentColor;
-  margin-right: .4em;
+  margin-right: .2em;
 }
 
 .btnIcon__label {
