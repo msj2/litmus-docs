@@ -1,8 +1,15 @@
+/*
+10/25/19 Goals: bring search bar on same line as tabs
+*/
 /* "Copy" code block button */
 pre {
   position: relative;
 }
 
+/*
+10/26/19
+MSJ2 
+Would reducing height from 30 px to 25 px help*/
 pre .btnIcon {
   position: absolute;
   top: 4px;
@@ -11,7 +18,7 @@ pre .btnIcon {
   border: 1px solid transparent;
   color: #383030;
   background-color: #f5f4f7;
-  height: 30px;
+  height: 25px;
   transition: all .25s ease-out;
 }
 
